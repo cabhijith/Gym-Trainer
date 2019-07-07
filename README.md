@@ -1,1 +1,1 @@
-Check out Gym- Trainer[https://gym-trainer.onrender.com/]
+Check out [Gym- Trainer](https://gym-trainer.onrender.com/)
