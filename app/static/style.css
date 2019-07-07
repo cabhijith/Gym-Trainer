@@ -14,7 +14,7 @@ body {
 }
 
 .title {
-    font-size: 0px;
+    font-size: 42px;
     margin-top: 1em;
     margin-bottom: 1em;
     color: #262626;
@@ -45,7 +45,7 @@ button.choose-file-button {
     border-radius: 2px;
     background-color: #ffffff;
     border: solid 1px #7052CB;
-    font-size: 13px;
+    font-size: 16px;
     color: #7052CB;
 }
 
@@ -55,7 +55,7 @@ button.analyze-button {
     border: solid 1px #7052CB;
     border-radius: 2px;
     background-color: #7052CB;
-    font-size: 13px;
+    font-size: 16px;
     color: #ffffff;
 }
 
