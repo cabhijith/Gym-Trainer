@@ -1,7 +1,7 @@
 import aiohttp
 import asyncio
 import uvicorn
-from fastai import *
+from fastai import * 
 from fastai.vision import *
 from io import BytesIO
 from starlette.applications import Starlette
@@ -15,7 +15,7 @@ export_file_name = 'New_P100.pkl'
 classes = ['dipstation', 'Battle', 'BenchPress', 'InclineBenchPress', 'HammerStrengthmachine', 'LatPullDownMachine', 'PecDeckMachine', 'PullupBar', 'DumbBells', 'tricepbars', 'PreacherBench', 'HandgripExerciser', 'reversehyper', 'Plyometric', 'airresistance', 'Stair', 'Ankle', 'LegCurlMachine', 'LegPressMachine', 'LegExtensionMachine', 'HackSquatMachine', 'CalfMachines', 'LegAbductionAbductionMachine', 'prowler', 'Mini', 'Inversion', 'Vibration', 'PowerRack', 'MaxiClimber', 'StretchingMachine', 'SmithMachine', 'Suspension', 'CablesandPulleys', 'KettleBells', 'Roman', 'AbdominalBench', 'AbCoaster', 'Stationary', 'CruiserBikes', 'FixieBikes', 'MountainBike', 'RecumbentBikes', 'RoadBikes', 'SpinBikes', 'Comfort', 'Treadmill', 'Mini_Exercise_\ufeffBikes', 'metalplates', 'Medicine', 'Pedometers', 'Pull', 'BloodGlucoseMeter', 'GPSWatches', 'GymnasticsGrips&Gloves', 'hoverboard', 'JumpRope', 'ResistanceBand', 'YogaMat', 'Fitness', 'barbells', 'WallBall', 'FoamRoller', 'Stabilityball', 'AgilityLadder', 'BalanceBoards', 'BalanceBoards']
 path = Path(__file__).parent
 
-Info = { "KettleBells" : "Kettle Balls are used for the muscels. Very VEry Good"
+info = { "KettleBells" : "Kettle Balls are used for the muscels. Very VEry Good"
 
 }
 
@@ -66,7 +66,7 @@ async def analyze(request):
     img = open_image(BytesIO(img_bytes))
     prediction = learn.predict(img)[0]
     prediction = learn.predict(img)[0]
-    return JSONResponse({'result': str(prediction)})
+    return JSONResponse({'inf': str(info[prediction])})
 #return JSONResponse({'result': str(prediction),
 #                        'inf' : str(info[prediction])})
     
