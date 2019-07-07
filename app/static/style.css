@@ -36,7 +36,8 @@ body {
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 35px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 button.choose-file-button {
