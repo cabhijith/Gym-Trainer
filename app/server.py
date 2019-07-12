@@ -17,7 +17,7 @@ classes = ['dipstation', 'Battle', 'BenchPress', 'InclineBenchPress', 'HammerStr
 path = Path(__file__).parent
 
 info = { "KettleBells" : "Kettle Balls One of the most ancient and efficient pieces of strength training equipment is the kettlebell. Consisting of an iron ball with a handle, there are hundreds of exercises which you can do using a kettlebell.It’s important to be careful and precise about posture as these work on multiple core muscles. There are a number of exercises and movements that can be paired with the kettlebell as it is quite diverse on its own. One can easily do a full body workout with just kettlebells and different weight modulation."}
-ques = {"KettleBells" : "What is the use of KettleBells?}
+ques = {"KettleBells" : "What is the use of KettleBells?" }
                          
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
