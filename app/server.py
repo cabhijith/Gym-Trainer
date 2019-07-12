@@ -17,7 +17,8 @@ classes = ['dipstation', 'Battle', 'BenchPress', 'InclineBenchPress', 'HammerStr
 path = Path(__file__).parent
 
 info = { "KettleBells" : "Kettle Balls One of the most ancient and efficient pieces of strength training equipment is the kettlebell. Consisting of an iron ball with a handle, there are hundreds of exercises which you can do using a kettlebell.It’s important to be careful and precise about posture as these work on multiple core muscles. There are a number of exercises and movements that can be paired with the kettlebell as it is quite diverse on its own. One can easily do a full body workout with just kettlebells and different weight modulation."}
-
+ques = {"KettleBells" : "What is the use of KettleBells?}
+                         
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
 app.mount('/static', StaticFiles(directory='app/static'))
@@ -57,6 +58,7 @@ async def homepage(request):
     html_file = path / 'view' / 'index.html'
     return HTMLResponse(html_file.open().read())
 
+    
 
 @app.route('/analyze', methods=['POST'])
 async def analyze(request):
@@ -65,8 +67,10 @@ async def analyze(request):
     img = open_image(BytesIO(img_bytes))
     prediction = learn.predict(img)[0]
     resultb = info[str(prediction)]
+    ques_json = ques[str(prediction)]
+    return JSONResponse({'result': str(resultb), 'ques': str(ques_json)})
     
-    return JSONResponse({'result': str(resultb)})
+        
 #return JSONResponse({'result': str(prediction),
 #                        'inf' : str(info[prediction])})
     
