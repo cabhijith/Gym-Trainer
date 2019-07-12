@@ -39,6 +39,15 @@ body {
     padding: 10px;
     font-size: 25px;
     font-family: "Times New Roman", Times, serif;
+    background-color: lightblue;
+}
+.ques-label{
+    margin-top: 0.5em;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: green;
+
 }
 
 button.choose-file-button {
