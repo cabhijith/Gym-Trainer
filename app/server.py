@@ -16,6 +16,7 @@ export_file_name = 'New_P100.pkl'
 classes = ['dipstation', 'Battle', 'BenchPress', 'InclineBenchPress', 'HammerStrengthmachine', 'LatPullDownMachine', 'PecDeckMachine', 'PullupBar', 'DumbBells', 'tricepbars', 'PreacherBench', 'HandgripExerciser', 'reversehyper', 'Plyometric', 'airresistance', 'Stair', 'Ankle', 'LegCurlMachine', 'LegPressMachine', 'LegExtensionMachine', 'HackSquatMachine', 'CalfMachines', 'LegAbductionAbductionMachine', 'prowler', 'Mini', 'Inversion', 'Vibration', 'PowerRack', 'MaxiClimber', 'StretchingMachine', 'SmithMachine', 'Suspension', 'CablesandPulleys', 'KettleBells', 'Roman', 'AbdominalBench', 'AbCoaster', 'Stationary', 'CruiserBikes', 'FixieBikes', 'MountainBike', 'RecumbentBikes', 'RoadBikes', 'SpinBikes', 'Comfort', 'Treadmill', 'Mini_Exercise_\ufeffBikes', 'metalplates', 'Medicine', 'Pedometers', 'Pull', 'BloodGlucoseMeter', 'GPSWatches', 'GymnasticsGrips&Gloves', 'hoverboard', 'JumpRope', 'ResistanceBand', 'YogaMat', 'Fitness', 'barbells', 'WallBall', 'FoamRoller', 'Stabilityball', 'AgilityLadder', 'BalanceBoards', 'BalanceBoards']
 path = Path(__file__).parent
 
+title = {"KettleBells" : "Kettle Bells"}
 info = { "KettleBells" : "Kettle Balls One of the most ancient and efficient pieces of strength training equipment is the kettlebell. Consisting of an iron ball with a handle, there are hundreds of exercises which you can do using a kettlebell.It’s important to be careful and precise about posture as these work on multiple core muscles. There are a number of exercises and movements that can be paired with the kettlebell as it is quite diverse on its own. One can easily do a full body workout with just kettlebells and different weight modulation."}
 ques = {"KettleBells" : "What is the use of KettleBells?" }
                          
@@ -68,7 +69,8 @@ async def analyze(request):
     prediction = learn.predict(img)[0]
     resultb = info[str(prediction)]
     ques_json = ques[str(prediction)]
-    return JSONResponse({'result': str(resultb), 'ques': str(ques_json)})
+    title_json = title[str(prediction)]
+    return JSONResponse({'result': str(resultb), 'ques': str(ques_json), 'title' : str(title_json)})
     
         
 #return JSONResponse({'result': str(prediction),
