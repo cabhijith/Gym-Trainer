@@ -38,15 +38,19 @@ body {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 25px;
-    font-family: "Times New Roman", Times, serif;
-    background-color: lightblue;
+    font-family: "Open Sans", Times, serif;
+    line-height: 1.6;
+    word-spacing: 3px;
+   
 }
 .ques-label{
-    margin-top: 0.5em;
-    padding: 10px;
+    margin-top: 0.8em;
+    padding: 30px;
     font-size: 25px;
     font-family: "Times New Roman", Times, serif;
-    background-color: lightblue;
+    line-height: 1.6;
+    word-spacing: 3px;
+    
 
 }
 
