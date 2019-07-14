@@ -30,9 +30,16 @@ function analyze() {
     if (this.readyState === 4) {
       var response = JSON.parse(e.target.responseText);
       el("title-label").innerHTML = `${response["title"]}`;
-      el("result-label").innerHTML = `${response["result"]}`;
-      el("ques-label").innerHTML = `${response["ques"]}`;
+      el("info-label").innerHTML = `${response["info"]}`;
+      el("often-label").innerHTML = `${response["often"]}`;
+      el("muscles-label").innerHTML = `${response["muscles"]}`;
+      el("tips-label").innerHTML = `${response["tips"]}`;
 
+
+
+
+     
+      
       
     }
     el("analyze-button").innerHTML = "Analyze";
