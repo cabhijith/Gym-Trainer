@@ -32,7 +32,7 @@ info = {"dipstation" : "An incredibly effective piece of equipment on which you 
     "PecDeckMachine" : "The best machine to isolate your pectoral muscles and give them a good workout. You can perform many exercises such as chest flys, butterfly, etc. using a pec deck machine.This machines is particularly beneficial to build chest and shoulder muscles, and also enhance arms strength and stability. The upper body muscles are squeezed together, causing the pectoralis major to expand and contract. This is what builds the muscle and also toughens the tissue fibers. When the exercise on this machine is done with appropriate weights, it does prove to be quite effective.",
     "Treadmill"  : "When you think of cardio workouts, treadmills are the first to come to mind. They are used to help you achieve a walking or running motion while staying in one place. Using a treadmill regularly can help you lose weight and build strength."
 }
-ques = {"KettleBells" : "What is the use of KettleBells?" }
+ques = {"Treadmill" : "What is the use of KettleBells?" }
                          
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
