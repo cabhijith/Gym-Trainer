@@ -5,7 +5,13 @@ body {
 .no-display {
     display: none;
 }
+h1 {
+    font-family: neo-sans, sans-serif;
+    color: #242a55;
+    font-size: 50px;
 
+    
+}
 
 .center {
     margin: auto;
@@ -47,22 +53,21 @@ body {
 .ans-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 25px;
+    font-size: 22px;
     font-family: neo-sans, sans-serif;;
     font-weight: 300;
-    line-height: 1.6;
+    line-height: 1.5;
     word-spacing: 3px;
    
 }
 .ques-label{
     margin-top: 0.8em;
-    padding: 30px;
+    padding: 35px;
     font-size: 25px;
     font-family: neo-sans, sans-serif;;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.5;
     word-spacing: 3px;
-    float: right;
     
 
 }
@@ -87,23 +92,7 @@ button.analyze-button {
     font-size: 16px;
     color: #ffffff;
 }
-#info-label { 
-  border-radius: 25px;
-  background-color: #a8efff;
-}
 
-#often-label { 
-  border-radius: 25px;
-  background-color: #a8efff;
-}
-#muscles-label { 
-  border-radius: 25px;
-  background-color: #a8efff;
-}
-#tips-label { 
-  border-radius: 25px;
-  background-color: #a8efff;
-}
 
 button:focus {
     outline: 0;
