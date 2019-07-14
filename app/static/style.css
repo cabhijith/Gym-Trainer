@@ -37,7 +37,8 @@ body {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 45px;
-    font-family: "Open Sans", Times, serif;
+    font-family: neo-sans, sans-serif;
+    font-weight: 500;
     line-height: 1.6;
     word-spacing: 3px;
 
@@ -55,7 +56,8 @@ body {
     margin-top: 0.8em;
     padding: 30px;
     font-size: 25px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: neo-sans, sans-serif;;
+    font-weight: 300;
     line-height: 1.6;
     word-spacing: 3px;
     float: right;
