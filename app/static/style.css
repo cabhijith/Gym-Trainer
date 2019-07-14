@@ -58,18 +58,12 @@ body {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
     word-spacing: 3px;
+    position: absolute;
+    right: 150px;
     
 
 }
-.ques3-label{
-    margin-top: 0.5em;
-    padding: 10px;
-    font-size: 25px;
-    font-family: "Open Sans", Times, serif;
-    line-height: 1.6;
-    word-spacing: 3px;
 
-}
 
 button.choose-file-button {
     width: 200px;
