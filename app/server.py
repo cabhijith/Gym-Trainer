@@ -67,8 +67,7 @@ Dic_Tips = {
         "HammerStrengthmachine" : "The action is similar to a shoulder press but a bit more at an angle. The key is to maintain your form and lift smooth rather than jerk it."
         "LatPullDownMachine" : "When executing this movement, make sure that you don’t hyperextend your back too much."
         "PecDeckMachine" : "Pair up the pec deck fly along with bench press and bent over cable crossover flys for better results."
-        "Treadmill" : "Always make sure that you warm up before using the treadmill. Start with a slight incline and ensure that it is not too steep. With practice, you can work on improving your stride count.
-"
+        "Treadmill" : "Always make sure that you warm up before using the treadmill. Start with a slight incline and ensure that it is not too steep. With practice, you can work on improving your stride count."
 }
                          
 app = Starlette()
@@ -127,8 +126,7 @@ async def analyze(request):
     
     
     
-    
-    return JSONResponse({'title': str(title_json), 'info': str(info_json), 'often' : str(often_json), 'muscles' : str(muscles_json), 'tips' : str(tips_json)})
+   return JSONResponse({'title': str(title_json), 'info': str(info_json), 'often' : str(often_json), 'muscles' : str(muscles_json), 'tips' : str(tips_json)})
     
         
 
