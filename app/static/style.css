@@ -58,8 +58,7 @@ body {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
     word-spacing: 3px;
-    position: absolute;
-    right: 150px;
+    float: right;
     
 
 }
