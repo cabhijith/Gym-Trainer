@@ -57,7 +57,7 @@ Dic_Muscles_Worked = {
        "HammerStrengthmachine" : "Lats, chest, middle back, shoulders and triceps",
         "LatPullDownMachine" : "Lats, deltoids, trapezius and rhomboids",
         "PecDeckMachine" : "The pectoralis major, pectoralis minor and serratus anterior.",
-        "TreadMill" : "Running or walking on a treadmill primarily involves the cardiovascular system and the lower body. The other muscles involved are the hamstrings, quadriceps, calves and glutes."
+        "Treadmill" : "Running or walking on a treadmill primarily involves the cardiovascular system and the lower body. The other muscles involved are the hamstrings, quadriceps, calves and glutes."
 }
 
 Dic_Tips = {
