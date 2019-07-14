@@ -38,7 +38,7 @@ body {
     padding: 10px;
     font-size: 45px;
     font-family: neo-sans, sans-serif;
-    font-weight: 500;
+    font-weight: 650;
     line-height: 1.6;
     word-spacing: 3px;
 
@@ -47,7 +47,8 @@ body {
     margin-top: 0.5em;
     padding: 10px;
     font-size: 25px;
-    font-family: "Open Sans", Times, serif;
+    font-family: neo-sans, sans-serif;;
+    font-weight: 300;
     line-height: 1.6;
     word-spacing: 3px;
    
@@ -57,7 +58,7 @@ body {
     padding: 30px;
     font-size: 25px;
     font-family: neo-sans, sans-serif;;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.6;
     word-spacing: 3px;
     float: right;
@@ -85,9 +86,24 @@ button.analyze-button {
     font-size: 16px;
     color: #ffffff;
 }
-#ques1-label { 
-  background-color: lightblue;
+#info-label { 
+  border-radius: 25px;
+  background-color: #a8efff;
 }
+
+#often-label { 
+  border-radius: 25px;
+  background-color: #a8efff;
+}
+#muscles-label { 
+  border-radius: 25px;
+  background-color: #a8efff;
+}
+#tips-label { 
+  border-radius: 25px;
+  background-color: #a8efff;
+}
+
 button:focus {
     outline: 0;
 }
