@@ -31,8 +31,11 @@ function analyze() {
       var response = JSON.parse(e.target.responseText);
       el("title-label").innerHTML = `${response["title"]}`;
       el("info-label").innerHTML = `${response["info"]}`;
+      el("ques1-label").innerHTML = `How often should you use it?`;
       el("often-label").innerHTML = `${response["often"]}`;
+      el("ques2-label").innerHTML = `Muscles Worked:`;
       el("muscles-label").innerHTML = `${response["muscles"]}`;
+      el("ques3-label").innerHTML = `More Tips`;
       el("tips-label").innerHTML = `${response["tips"]}`;
 
 
