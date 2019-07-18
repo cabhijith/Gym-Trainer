@@ -6,95 +6,101 @@ torchvision == 0.2.1
 starlette==0.12.0
 uvicorn==0.7.1
 python-multipart==0.0.5
-asn1crypto==0.24.0   
-attrs==18.2.0   
-backcall==0.1.0    
-beautifulsoup4==4.7.1    
-bleach==3.1.0    
-Bottleneck==1.2.1    
-certifi==2019.6.16
-cffi==1.11.5   
-chardet==3.0.4    
-cryptography==2.7      
-cycler==0.10.0   
-cymem==2.0.2    
-cytoolz == 0.9.0.1  
-dataclasses== 0.6      
-decorator ==4.3.0    
-dill==0.2.8.2  
-entrypoints==0.3      
-fastai == 1.0.54   
-fastprogress ==0.1.21   
-idna ==2.8      
-ipykernel==5.1.0    
-ipython== 7.2.0    
-ipython-genutils==0.2.0    
-ipywidgets==7.4.2    
-jedi == 0.13.2   
-Jinja2==2.10     
-jsonschema ==3.0.0a3  
-jupyter        ==    1.0.0    
-jupyter-client   ==  5.2.4    
-jupyter-console ==   6.0.0    
-jupyter-core   ==    4.4.0    
-kiwisolver   ==      1.0.1    
-MarkupSafe    ==     1.1.0    
-matplotlib    ==     3.0.2    
-mistune       ==     0.8.4     
-msgpack        ==    0.6.0    
-msgpack-numpy ==     0.4.3.2  
-murmurhash    ==     1.0.0          
-nbconvert      ==    5.3.1    
-nbformat       ==    4.4.0    
-notebook      ==     5.7.4    
-numexpr        ==    2.6.9    
-numpy         ==     1.15.4   
-nvidia-ml-py3 ==     7.352.0  
-olefile     ==       0.46     
-packaging    ==      19.0     
-pandas        ==     0.23.4   
-pandocfilters  ==    1.4.2    
-parso         ==     0.3.1    
-pexpect      ==      4.6.0    
-pickleshare   ==     0.7.5    
-Pillow        ==     5.4.1    
-pip           ==     18.1     
-plac         ==      0.9.6    
-preshed      ==      2.0.1    
-prometheus-client == 0.5.0    
-prompt-toolkit   ==  2.0.7    
-ptyprocess     ==    0.6.0    
-pycparser    ==      2.19     
-Pygments   ==        2.3.1    
-pyOpenSSL   ==       18.0.0   
-pyparsing   ==       2.3.1    
-pyrsistent  ==       0.14.9   
-PySocks    ==        1.6.8    
-python-dateutil  ==  2.7.5    
-pytz           ==    2018.9   
-PyYAML         ==    3.13     
-pyzmq         ==     17.1.2   
-qtconsole     ==     4.4.3    
-regex         ==     2018.1.10
-requests    ==       2.21.0   
-scipy       ==       1.2.0    
-Send2Trash    ==     1.5.0    
-setuptools==40.6.3   
-six==1.12.0   
-soupsieve   ==       1.7.1    
-spacy      ==        2.0.18   
-terminado  ==        0.8.1    
-testpath   ==        0.4.2    
-thinc      ==        6.12.1   
-toolz      ==        0.9.0         
-tornado==5.1.1    
-tqdm         ==      4.29.1   
-traitlets     ==     4.3.2    
-typing      ==       3.6.4    
-ujson        ==      1.35     
-urllib3      ==      1.24.1   
-wcwidth      ==      0.1.7    
-webencodings    ==   0.5.1    
-wheel          ==    0.32.3   
-widgetsnbextension ==3.4.2    
-wrapt         ==     1.10.11  
+
+
+___________________________________________________________________________________________________________________________________
+
+asn1crypto     =    0.24.0   
+attrs        =      18.2.0   
+backcall        =   0.1.0    
+beautifulsoup4   =  4.7.1    
+bleach           =  3.1.0    
+Bottleneck     =    1.2.1    
+certifi       =     2019.6.16
+cffi        =       1.11.5   
+chardet      =      3.0.4    
+cryptography  =     2.7      
+cycler       =      0.10.0   
+cymem        =      2.0.2    
+cytoolz       =     0.9.0.1  
+dataclasses    =    0.6      
+decorator      =    4.3.0    
+dill           =    0.2.8.2  
+entrypoints    =    0.3      
+fastai        =     1.0.55   
+fastprogress  =     0.1.21   
+idna         =      2.8      
+ipykernel    =      5.1.0    
+ipython        =    7.2.0    
+ipython-genutils =  0.2.0    
+ipywidgets       =  7.4.2    
+jedi           =    0.13.2   
+Jinja2         =    2.10     
+jsonschema      =   3.0.0a3  
+jupyter         =   1.0.0    
+jupyter-client  =   5.2.4    
+jupyter-console =   6.0.0    
+jupyter-core   =    4.4.0    
+kiwisolver     =    1.0.1    
+MarkupSafe    =     1.1.0    
+matplotlib   =      3.0.2    
+mistune      =      0.8.4      
+msgpack   =         0.6.0    
+msgpack-numpy   =   0.4.3.2  
+murmurhash    =     1.0.0    
+nb-conda       =    2.2.1    
+nb-conda-kernels =  2.2.0    
+nbconvert    =      5.3.1    
+nbformat     =      4.4.0    
+notebook     =      5.7.4    
+numexpr      =      2.6.9    
+numpy        =      1.15.4   
+nvidia-ml-py3    =  7.352.0  
+olefile      =      0.46     
+packaging     =     19.0     
+pandas        =     0.23.4   
+pandocfilters  =    1.4.2    
+parso          =    0.3.1    
+pexpect       =     4.6.0    
+pickleshare   =     0.7.5    
+Pillow        =     5.4.1    
+pip           =     18.1     
+plac         =      0.9.6    
+preshed  =          2.0.1    
+prometheus-client = 0.5.0    
+prompt-toolkit   =  2.0.7    
+ptyprocess    =     0.6.0    
+pycparser   =       2.19     
+Pygments         =  2.3.1    
+pyOpenSSL      =    18.0.0   
+pyparsing      =    2.3.1    
+pyrsistent     =    0.14.9   
+PySocks        =    1.6.8    
+python-dateutil =   2.7.5    
+pytz          =     2018.9   
+PyYAML       =      3.13     
+pyzmq       =       17.1.2   
+qtconsole   =       4.4.3    
+regex       =       2018.1.10
+requests    =       2.21.0   
+scipy       =       1.2.0    
+Send2Trash   =      1.5.0    
+setuptools   =      40.6.3   
+six         =       1.12.0   
+soupsieve   =       1.7.1    
+spacy=2.0.18   
+terminado  =        0.8.1    
+testpath  =         0.4.2    
+thinc    =          6.12.1   
+toolz      =        0.9.0       
+tornado       =     5.1.1    
+tqdm        =       4.29.1   
+traitlets      =    4.3.2    
+typing        =     3.6.4    
+ujson          =    1.35     
+urllib3        =    1.24.1   
+wcwidth         =   0.1.7    
+webencodings =      0.5.1    
+wheel       =       0.32.3   
+widgetsnbextension =3.4.2    
+wrapt      =        1.10.11 
