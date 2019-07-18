@@ -10,10 +10,10 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1-6ACEO2XCVWtHDM84fCAmspkx99zpKbA?alt=media&key=AIzaSyCZRHQRQoWYvCCzyax5lxAdrNyfP-nibSo'
-export_file_name = 'New_P100.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1-IUnAKJhmOm1QKwQJCbDI8aOxtW8V7kb?alt=media&key=AIzaSyByRUuaBnB4fpelgrEjNPF48Uj249KNGYc'
+export_file_name = 'Can_classify.pkl'
 
-classes = ['dipstation', 'Battle', 'BenchPress', 'InclineBenchPress', 'HammerStrengthmachine', 'LatPullDownMachine', 'PecDeckMachine', 'PullupBar', 'DumbBells', 'tricepbars', 'PreacherBench', 'HandgripExerciser', 'reversehyper', 'Plyometric', 'airresistance', 'Stair', 'Ankle', 'LegCurlMachine', 'LegPressMachine', 'LegExtensionMachine', 'HackSquatMachine', 'CalfMachines', 'LegAbductionAbductionMachine', 'prowler', 'Mini', 'Inversion', 'Vibration', 'PowerRack', 'MaxiClimber', 'StretchingMachine', 'SmithMachine', 'Suspension', 'CablesandPulleys', 'KettleBells', 'Roman', 'AbdominalBench', 'AbCoaster', 'Stationary', 'CruiserBikes', 'FixieBikes', 'MountainBike', 'RecumbentBikes', 'RoadBikes', 'SpinBikes', 'Comfort', 'Treadmill', 'Mini_Exercise_\ufeffBikes', 'metalplates', 'Medicine', 'Pedometers', 'Pull', 'BloodGlucoseMeter', 'GPSWatches', 'GymnasticsGrips&Gloves', 'hoverboard', 'JumpRope', 'ResistanceBand', 'YogaMat', 'Fitness', 'barbells', 'WallBall', 'FoamRoller', 'Stabilityball', 'AgilityLadder', 'BalanceBoards', 'BalanceBoards']
+classes =  ['RecumbentBikes', 'LegAbductionMachine', 'AbBenches', 'Hyperextensionbench', 'HammerStrengthMachine', 'Handgripexerciser', 'Stationarbike', 'PecDeckMachine', 'Benchpress', 'Stretchingmachine', 'CableMachine', 'AbCoaster', 'Weights', 'CalfMachines', 'ReverseHyper', 'PowerSled', 'Preacherbench', 'LegPressMachine', 'SuspensionTrainer', 'pullupbar', 'Dumbbell', 'SpinBike', 'SmithMachine', 'PowerReack', 'dipstation', 'LatPullDownMachine', 'HackSquatMachine', 'Ankle', 'KettleBalls', 'MiniBikes', 'Handgripexerciser', 'LegCurlMachine', 'Treadmills', 'Stair']
 path = Path(__file__).parent
 
 Dic_Info = {
