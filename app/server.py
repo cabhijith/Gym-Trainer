@@ -24,7 +24,7 @@ Dic_Info = {
     "HammerStrengthmachine" : "A plate loaded device which focuses on the body’s natural path of motion. You can fully explore the advantages of converging and diverging arcs of movement.A hammer strength machine lets you lift a lot more than when you lift free weights. You need to remember not to overexert yourself.",
     "LatPullDownMachine" : "The lat pulldown machine is a strength training device with a padded seat, thigh support and a long bar hanging from an upper rod. You can work your lats using this machine.If you are not able to handle pull-ups, this could be a good alternative. You can vary your grips on the pull-down rod to work with different parts of your upper body.",
     "PecDeckMachine" : "The best machine to isolate your pectoral muscles and give them a good workout. You can perform many exercises such as chest flys, butterfly, etc. using a pec deck machine.This machines is particularly beneficial to build chest and shoulder muscles, and also enhance arms strength and stability. The upper body muscles are squeezed together, causing the pectoralis major to expand and contract. This is what builds the muscle and also toughens the tissue fibers. When the exercise on this machine is done with appropriate weights, it does prove to be quite effective.",
-    "Treadmill"  : "When you think of cardio workouts, treadmills are the first to come to mind. They are used to help you achieve a walking or running motion while staying in one place. Using a treadmill regularly can help you lose weight and build strength."
+    "Treadmills"  : "When you think of cardio workouts, treadmills are the first to come to mind. They are used to help you achieve a walking or running motion while staying in one place. Using a treadmill regularly can help you lose weight and build strength."
 }
 
 title = {
@@ -34,7 +34,7 @@ title = {
       "HammerStrengthmachine" : "Hammer Strength Machine",
       "LatPullDownMachine" : "Lat Pull-Down Machine",
       "PecDeckMachine" : "Pec Deck Machine",
-      "Treadmill": "Treadmill"
+      "Treadmills": "Treadmill"
 
 
 }
@@ -46,7 +46,7 @@ Dic_How_Often = {
          "HammerStrengthmachine" : "It’s a good movement to supplement your biceps/arms workout. Remember to not overdo it and give your arms about 2 days rest before you work the same muscle group.",
          "LatPullDownMachine" : "You can do lat pulldowns twice every week without fatiguing your muscles.",
          "PecDeckMachine" : "Can be used once a week, with varying weights.",
-         "Treadmill" : "The frequency will depend on the level of impact of your workouts. Treadmills can be used every day, when opting for low-intensity exercise. For high-intensity runs, it is better to stick to alternate days."
+         "Treadmills" : "The frequency will depend on the level of impact of your workouts. Treadmills can be used every day, when opting for low-intensity exercise. For high-intensity runs, it is better to stick to alternate days."
 
 }
 
@@ -57,7 +57,7 @@ Dic_Muscles_Worked = {
        "HammerStrengthmachine" : "Lats, chest, middle back, shoulders and triceps",
         "LatPullDownMachine" : "Lats, deltoids, trapezius and rhomboids",
         "PecDeckMachine" : "The pectoralis major, pectoralis minor and serratus anterior.",
-        "Treadmill" : "Running or walking on a treadmill primarily involves the cardiovascular system and the lower body. The other muscles involved are the hamstrings, quadriceps, calves and glutes."
+        "Treadmills" : "Running or walking on a treadmill primarily involves the cardiovascular system and the lower body. The other muscles involved are the hamstrings, quadriceps, calves and glutes."
 }
 
 Dic_Tips = {
@@ -67,7 +67,7 @@ Dic_Tips = {
         "HammerStrengthmachine" : "The action is similar to a shoulder press but a bit more at an angle. The key is to maintain your form and lift smooth rather than jerk it.",
         "LatPullDownMachine" : "When executing this movement, make sure that you don’t hyperextend your back too much.",
         "PecDeckMachine" : "Pair up the pec deck fly along with bench press and bent over cable crossover flys for better results.",
-        "Treadmill" : "Always make sure that you warm up before using the treadmill. Start with a slight incline and ensure that it is not too steep. With practice, you can work on improving your stride count."
+        "Treadmills" : "Always make sure that you warm up before using the treadmill. Start with a slight incline and ensure that it is not too steep. With practice, you can work on improving your stride count."
 }
 
                          
