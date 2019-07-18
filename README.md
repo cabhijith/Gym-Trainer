@@ -6,5 +6,7 @@ Gym Trainer is a web app to classify Gym Equipment from a photo! Currently, it c
 
 <hr>
 <b>Error:</b> If the 'Analyze' button gets stuck, its recommended you try a different browser or upgrade the exisiting one. 
+<br>
+<br>
 
 [Disclosure](https://github.com/cabhijith/Gym-Trainer/blob/master/app/Disclosure.md)
