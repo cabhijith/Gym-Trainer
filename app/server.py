@@ -63,8 +63,8 @@ title = {
       "HammerStrengthMachine" : "Hammer Strength Machine",
       "LatPullDownMachine" : "Lat Pull-Down Machine",
       "PecDeckMachine" : "Pec Deck Machine",
-      "Treadmills": "Treadmill"
-      "RecumbentBikes" :"Recumbent Bikes"
+      "Treadmills": "Treadmill",
+      "RecumbentBikes" :"Recumbent Bikes",
       "LegAbductionMachine" : "Leg Abduction Machine",
       "AbBenches" : "Abdominal Bench",
       "Hyperextensionbench" : "",
@@ -102,7 +102,7 @@ Dic_How_Often = {
          "HammerStrengthMachine" : "It’s a good movement to supplement your biceps/arms workout. Remember to not overdo it and give your arms about 2 days rest before you work the same muscle group.",
          "LatPullDownMachine" : "You can do lat pulldowns twice every week without fatiguing your muscles.",
          "PecDeckMachine" : "Can be used once a week, with varying weights.",
-         "Treadmills" : "The frequency will depend on the level of impact of your workouts. Treadmills can be used every day, when opting for low-intensity exercise. For high-intensity runs, it is better to stick to alternate days."
+         "Treadmills" : "The frequency will depend on the level of impact of your workouts. Treadmills can be used every day, when opting for low-intensity exercise. For high-intensity runs, it is better to stick to alternate days.",
          "RecumbentBikes" : "Aim for 250 minutes of cycling per week at moderate-intensity or 100 minutes at a vigorous-intensity for weight loss.",
          "LegAbductionMachine" : "Not more than twice a week with appropriate weights.",
          "AbBenches" : "The abdominal bench can be used 2-3 times a week. It is recommended to take rest days between workouts.",
@@ -141,7 +141,7 @@ Dic_Muscles_Worked = {
        "HammerStrengthMachine" : "Lats, chest, middle back, shoulders and triceps",
         "LatPullDownMachine" : "Lats, deltoids, trapezius and rhomboids",
         "PecDeckMachine" : "The pectoralis major, pectoralis minor and serratus anterior.",
-        "Treadmills" : "Running or walking on a treadmill primarily involves the cardiovascular system and the lower body. The other muscles involved are the hamstrings, quadriceps, calves and glutes."
+        "Treadmills" : "Running or walking on a treadmill primarily involves the cardiovascular system and the lower body. The other muscles involved are the hamstrings, quadriceps, calves and glutes.",
         "RecumbentBikes" :  "The quadriceps and glutes get worked when you exercise on a recumbent bike",
         "LegAbductionMachine" : "It works the adductor brevis, which runs from the upper femur down to the pelvis; the adductor longus, which stretches from the pelvis to the middle of the femur; and the adductor magnus, which also begins at the pelvis and runs down to the lower part of the femur.Also works on the pectineus and gracilis muscles.",
         "AbBenches" : "This is a very versatile piece of exercise equipment that can be used to strengthen various unique muscle groups, not just in the abdomen but throughout the body.",
@@ -181,7 +181,7 @@ Dic_Tips = {
         "HammerStrengthMachine" : "The action is similar to a shoulder press but a bit more at an angle. The key is to maintain your form and lift smooth rather than jerk it.",
         "LatPullDownMachine" : "When executing this movement, make sure that you don’t hyperextend your back too much.",
         "PecDeckMachine" : "Pair up the pec deck fly along with bench press and bent over cable crossover flys for better results.",
-        "Treadmills" : "Always make sure that you warm up before using the treadmill. Start with a slight incline and ensure that it is not too steep. With practice, you can work on improving your stride count."
+        "Treadmills" : "Always make sure that you warm up before using the treadmill. Start with a slight incline and ensure that it is not too steep. With practice, you can work on improving your stride count.",
         "RecumbentBikes" : "Ensure that you maintain the right posture when using a recumbent bike.",
         "LegAbductionMachine" : "Always better to use this machine towards the end of a workout session. Weights should not exceed threshold of the person as it could become injurious.",
         "AbBenches" : "Whatever exercise you are doing on the abdominal bench, it is important to maintain the proper form to maximize your movements and avoid injuries.",
