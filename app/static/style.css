@@ -71,7 +71,9 @@ h1 {
     
 
 }
-
+.small{
+   font-size: 15px;
+}
 
 button.choose-file-button {
     width: 200px;
