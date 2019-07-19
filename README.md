@@ -1,4 +1,7 @@
 # Gym Trainer
+
+![](https://github.com/cabhijith/Gym-Trainer/blob/master/Example.gif)
+
 Check it out - [Gym- Trainer](https://gym-trainer.onrender.com/)<br>
 
 
