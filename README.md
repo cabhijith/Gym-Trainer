@@ -11,9 +11,9 @@ Gym Trainer is a web app to classify Gym Equipment from a photo! Currently, it c
 
 
 ## Reporting Wrong Predictions 
-If the model has made a wrong prediction, please open an issue on Github with the following pireces of information:
+If the model has made a wrong prediction, please open an issue on Github with the following pieces of information:
 <ul>
-  <li>The Image that gave the wrong prediction</li>
+  <li>The image that gave the wrong prediction</li>
   <li>A screen shot of the prediction by the model</li>
   <li>The correct prediction and a source to back it up</li>
 </ul>
