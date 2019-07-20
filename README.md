@@ -2,15 +2,24 @@
 
 ![](https://github.com/cabhijith/Gym-Trainer/blob/master/Example.gif)
 
-Check it out - [Gym- Trainer](https://gym-help.onrender.com/)<br>
+<img src = "Status.svg">
 
+Check it out - [Gym- Trainer](https://gym-help.onrender.com/)<br>
 
 Gym Trainer is a web app to classify Gym Equipment from a photo! Currently, it classifies 35 odd instruments. While it does work on mobile browsers, its recommended to use it on Desktop!
 
 
-Status: <i>Work in Progress</i>
-<hr>
+
+## Reporting Wrong Predictions 
+If the model has made a wrong prediction, please open an issue on Github with the following pireces of information:
+<ul>
+  <li>The Image that gave the wrong prediction</li>
+  <li>A screen shot of the prediction by the model</li>
+  <li>The correct prediction and a source to back it up</li>
+</ul>
+
 <b>Error:</b> If the 'Analyze' button gets stuck, its recommended you try a different browser or upgrade the exisiting one. 
+
 <br>
 <br>
 
