@@ -38,7 +38,7 @@ function analyze() {
       el("ques3-label").innerHTML = `More Tips`;
       el("tips-label").innerHTML = `${response["tips"]}`;
 //       el("video-label").innerHTML = `${response["video"]}`;
-      el("my-youtube-player").src = `https://www.youtube.com/embed/{response["video"]}`;
+      el("my-youtube-player").src = `https://www.youtube.com/embed/${response["video"]}`;
     }
     el("analyze-button").innerHTML = "Analyze";
   };
