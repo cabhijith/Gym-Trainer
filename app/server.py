@@ -55,7 +55,10 @@ Dic_Info = {
     "LegCurlMachine" : "The ideal machine for toning your quadriceps is the leg extension machine. You will have to sit on the machine with your legs under the pads and lift weights using your quadriceps. A lot of people have gone past leg extensions to compound exercises, but they still find them useful in certain situations.",
     "Stair" : "This is an inexpensive machine which can simulate climbing stairs which is considered a really good cardio workout. While the stair stepper may be an older machine compared to the newfangled pieces of equipment available, it can still give you that lower body burn."
 }
-
+video = {
+  "dipstation" : "W8jXc1zaLuQ" ,
+  "Treadmills" : "W8jXc1zaLuQ"
+}
 title = {
       "dipstation" : "Dip Station",
       "Benchpress" : "Bench Press",
@@ -267,11 +270,12 @@ async def analyze(request):
     often_json = Dic_How_Often[str(prediction)]
     muscles_json = Dic_Muscles_Worked[str(prediction)]
     tips_json = Dic_Tips[str(prediction)]
+    video_json = video[str(prediction)]
  
     
     
     
-    return JSONResponse({'title' : str(title_json), 'info': str(info_json), 'often' : str(often_json), 'muscles' : str(muscles_json), 'tips' : str(tips_json)})
+    return JSONResponse({'title' : str(title_json), 'info': str(info_json), 'often' : str(often_json), 'muscles' : str(muscles_json), 'tips' : str(tips_json), 'video' : str(video_json)})
     
         
 
