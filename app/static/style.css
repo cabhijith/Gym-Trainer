@@ -37,6 +37,8 @@ h1 {
 .img-gym{
     max-width: 30%;
     height: auto;
+    margin-top: 200px;
+    margin-rightL: 0px;
     float: left;
 }
 .upload-label {
@@ -80,7 +82,7 @@ h1 {
 }
 
 button.choose-file-button {
-    width: 200px;
+    width: 300px;
     height: 40px;
     border-radius: 2px;
     background-color: #ffffff;
