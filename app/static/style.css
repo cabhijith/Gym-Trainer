@@ -60,6 +60,7 @@ h1 {
 
 }
 .ans-label {
+    color: #242a55;
     margin-top: 0.5em;
     padding: 10px;
     font-size: 22px;
@@ -67,11 +68,11 @@ h1 {
     font-weight: 300;
     line-height: 1.5;
     word-spacing: 3px;
-    color: #242a55;
 
    
 }
 .ques-label{
+    color: #242a55;
     margin-top: 0.8em;
     padding: 35px;
     font-size: 25px;
@@ -79,7 +80,6 @@ h1 {
     font-weight: 550;
     line-height: 1.5;
     word-spacing: 3px;
-    color: #242a55;
 
     
 
