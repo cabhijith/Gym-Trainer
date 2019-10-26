@@ -34,7 +34,11 @@ h1 {
 .analyze {
     margin-top: 5em;
 }
-
+.img-gym{
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
 .upload-label {
     padding: 10px;
     font-size: 12px;
