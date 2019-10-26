@@ -37,13 +37,8 @@ function analyze() {
       el("muscles-label").innerHTML = `${response["muscles"]}`;
       el("ques3-label").innerHTML = `More Tips`;
       el("tips-label").innerHTML = `${response["tips"]}`;
-
-
-
-
-     
-      
-      
+      el("video-label").innerHTML = `${response["video"]}`;
+      el("my-youtube-player").src = `${response["video"]}`;
     }
     el("analyze-button").innerHTML = "Analyze";
   };
