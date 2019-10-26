@@ -56,8 +56,8 @@ Dic_Info = {
     "Stair" : "This is an inexpensive machine which can simulate climbing stairs which is considered a really good cardio workout. While the stair stepper may be an older machine compared to the newfangled pieces of equipment available, it can still give you that lower body burn."
 }
 video = {
-  "dipstation" : "ifuE2uIt0T4" ,
-  "Treadmills" : "ifuE2uIt0T4"
+  "dipstation" : "W8jXc1zaLuQ" ,
+  "Treadmills" : "W8jXc1zaLuQ"
 }
 title = {
       "dipstation" : "Dip Station",
