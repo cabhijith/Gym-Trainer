@@ -89,6 +89,8 @@ button.choose-file-button {
     border: solid 1px #7052CB;
     font-size: 16px;
     color: #7052CB;
+    margin-right: 400px;
+
 }
 
 button.analyze-button {
@@ -99,6 +101,8 @@ button.analyze-button {
     background-color: #7052CB;
     font-size: 16px;
     color: #ffffff;
+    margin-right: 400px;
+
 }
 
 
