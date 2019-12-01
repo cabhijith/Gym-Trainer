@@ -4,7 +4,7 @@
 
 <img src = "Status.svg">
 
-Check it out - [Gym- Trainer](https://gym-help.onrender.com/)<br>
+Check it out - [Gym- Trainer](https://gym-ai.onrender.com)<br>
 
 Gymmed.ai is a web app to classify Gym Equipment from a photo! Currently, it classifies 35 odd instruments. While it does work on mobile browsers, its recommended to use it on Desktop!
 
