@@ -12,7 +12,7 @@ asn1crypto     ==   0.24.0
 attrs        ==      18.2.0   
 backcall        ==   0.1.0    
 beautifulsoup4   ==  4.7.1    
-bleach           ==  3.1.0    
+bleach           == 3.3.0    
 Bottleneck     ==    1.2.1    
 certifi       ==     2019.6.16
 cffi        ==       1.11.5   
